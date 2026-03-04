@@ -1,18 +1,15 @@
-def registrar(listaGasto):
+def registrar(listaGastos):
     print(" Nuevo Registro ")
     nombre = input("Nombre del gasto: ")
     desc = input("Descripcion breve: ")
     try:
         costo = float(input("Costo: "))
-        
-        # Almacenamos el gasto como un diccionario
-        listaGasto = {
+        gasto = {
             "nombre": nombre,
             "descripcion": desc,
             "costo": costo,
-            "fecha": fecha
         }
-        lista_gastos.append(listaGasto)
+        listaGastos.append(gasto)
         print("Gasto registrado exitosamente.")
     except ValueError:
         print("Error: El costo debe ser un numero.")
