@@ -1,4 +1,4 @@
-def mostrar_gastos(lista_gastos):
+def mostrarGastos(lista_gastos):
     if not lista_gastos:
         print("No hay gastos registrados.")
         return

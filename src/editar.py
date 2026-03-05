@@ -1,8 +1,9 @@
+import mostrar
 def editarGasto(lista_gastos):
     if not lista_gastos:
         print("No hay gastos para editar.")
         return
-    mostrar_gastos(lista_gastos)
+    mostrar.mostrarGastos(lista_gastos)  
     try:
         indice = int(input("Ingresa el número del gasto a editar (empezando desde 0): "))
         if 0 <= indice < len(lista_gastos):
