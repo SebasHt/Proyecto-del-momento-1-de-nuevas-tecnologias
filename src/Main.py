@@ -8,8 +8,8 @@ gastos=[]
 
 while seguir:
     print("¿Que quieres hacer ?")
-    print("1) Ver gastos actuales")
-    print("2) añadir gastos")
+    print("1) añadir gastos ")
+    print("2) Ver gastos actuales ")
     print("3) Promedio de los gastos")
     print("4) salir")
     opcion = int(input("cual opcion has decidido elegir "))
